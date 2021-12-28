@@ -66,6 +66,15 @@ class testFluttercn(docs_parser.DocsParser):
 temp = testFluttercn("https://flutter.cn/docs","container","nav-link","A3")
 temp.process()
 
+#
+# temp = testFluttercn("https://kotlinlang.org/docs","article","navigation-links__next","A3")
+# temp.process()
+#
+
+
+
+
+
 with open("temp.html",'rb') as f:
    content = f.read()
 
